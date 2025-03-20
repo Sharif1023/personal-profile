@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="theme-toggle" id="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="muslim-or-islamic-boy-goes-to-school-character-vector-26173966.avif" alt="Profile Picture" class="profile-picture">
+            <h1>John Doe</h1>
+            <p>Web Developer & Designer</p>
+        </div>
+        <div class="profile-bio">
+            <p>Hello! I'm John Doe, a passionate web developer and designer with over 5 years of experience in creating beautiful and functional websites.</p>
+            <p id="additional-bio" class="hidden">I specialize in front-end development using HTML, CSS, and JavaScript, and I also have experience with frameworks like React and Vue.js. In my free time, I enjoy contributing to open-source projects and exploring new technologies.</p>
+            <button id="read-more-btn">Read More</button>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 95%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-links">
+            <a href="https://facebook.com/johndoe" target="_blank" class="social-link facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/johndoe" target="_blank" class="social-link instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/johndoe" target="_blank" class="social-link twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+        <footer>
+            <p>&copy; <span id="current-year"></span> John Doe. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
